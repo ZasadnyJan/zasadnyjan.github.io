@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jan Zasadny</title>
     <link rel="stylesheet" href="assets/css/mystyle.css">
-    <link rel="stylesheet" href="assets\fontawesome\css\all.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
 </head>
 
 <body>
-    <section id="Header hero" class="hero is-primary is-large has-bg-neural">
+    <section id="Header_hero" class="hero is-dark is-large has-bg-neural">
 
         <div class="hero-head">
-            <nav class="navbar" role="navigation" aria-label="main navigation">
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" >
                 <div class="navbar-brand">
-                    <a class="navbar-item">
+                    <a id="brand_button" class="navbar-item">
                         <!-- TODO Logo here -->
                         <strong>Jan Zasadny</strong> 
                     </a>
@@ -27,20 +27,20 @@
 
                     <div class="navbar-end">
 
-                        <a class="navbar-item">
+                        <a id="about_button" class="navbar-item">
                             About me
                         </a>
 
-                        <a class="navbar-item">
+                        <a id="portfolio_button" class="navbar-item">
                             Portfolio
                         </a>
 
-                        <a class="navbar-item">
+                        <a id="contact_button" class="navbar-item">
                             Contact
                         </a>
 
-                        <div class="navbar-item">
-                            <a class="button is-primary">
+                        <div  class="navbar-item">
+                            <a id="cv_button" class="button is-primary">
                                 CV
                             </a>
                         </div>
@@ -68,7 +68,7 @@
         </div>
     </section>
 
-    <section id="About me hero" class="hero is-light">
+    <section id="About_hero" class="hero is-light">
         
         <div class="hero-body">
 
@@ -110,7 +110,7 @@
         </div>
 
     </section>
-    <section id="Portfolio hero" class="hero is-primary">
+    <section id="Portfolio_hero" class="hero is-primary">
     
         <div class="hero-body">
     
@@ -139,8 +139,22 @@
                                     tincidunt imperdiet dolor aliquet euismod. In vitae felis ut neque semper dictum. Curabitur hendrerit, purus sit amet
                                     dapibus dignissim, arcu metus gravida nunc, ac vestibulum nulla urna in mauris.
                                 </div>
+                                
+                                <div class="content">
+                                    
+                                    <button class="button is-info ">
+                                        <span class="icon-text">
+                                            <span class="icon">
+                                                <i class="fas fa-link"></i>
+                                            </span>
+                                            <span>Browse on Github</span>
+                                        </span>
+                                    </button>
+                                </div>
 
                             </div>
+
+                            
 
                         </div>
 
@@ -167,6 +181,18 @@
                                     tincidunt imperdiet dolor aliquet euismod. In vitae felis ut neque semper dictum. Curabitur hendrerit,
                                     purus sit amet
                                     dapibus dignissim, arcu metus gravida nunc, ac vestibulum nulla urna in mauris.
+                                </div>
+
+                                <div class="content">
+                                
+                                    <button class="button is-info ">
+                                        <span class="icon-text">
+                                            <span class="icon">
+                                                <i class="fas fa-link"></i>
+                                            </span>
+                                            <span>Browse on Github</span>
+                                        </span>
+                                    </button>
                                 </div>
                     
                             </div>
@@ -196,6 +222,18 @@
                                     tincidunt imperdiet dolor aliquet euismod. In vitae felis ut neque semper dictum. Curabitur hendrerit,
                                     purus sit amet
                                     dapibus dignissim, arcu metus gravida nunc, ac vestibulum nulla urna in mauris.
+                                </div>
+
+                                <div class="content">
+                                
+                                    <button class="button is-info ">
+                                        <span class="icon-text">
+                                            <span class="icon">
+                                                <i class="fas fa-link"></i>
+                                            </span>
+                                            <span>Browse on Github</span>
+                                        </span>
+                                    </button>
                                 </div>
                     
                             </div>
@@ -229,6 +267,18 @@
                                     hendrerit, purus sit amet
                                     dapibus dignissim, arcu metus gravida nunc, ac vestibulum nulla urna in mauris.
                                 </div>
+
+                                <div class="content">
+                                
+                                    <button class="button is-info ">
+                                        <span class="icon-text">
+                                            <span class="icon">
+                                                <i class="fas fa-link"></i>
+                                            </span>
+                                            <span>Browse on Github</span>
+                                        </span>
+                                    </button>
+                                </div>
                 
                             </div>
                 
@@ -258,6 +308,18 @@
                                     hendrerit,
                                     purus sit amet
                                     dapibus dignissim, arcu metus gravida nunc, ac vestibulum nulla urna in mauris.
+                                </div>
+
+                                <div class="content">
+                                
+                                    <button class="button is-info ">
+                                        <span class="icon-text">
+                                            <span class="icon">
+                                                <i class="fas fa-link"></i>
+                                            </span>
+                                            <span>Browse on Github</span>
+                                        </span>
+                                    </button>
                                 </div>
                 
                             </div>
@@ -289,6 +351,18 @@
                                     purus sit amet
                                     dapibus dignissim, arcu metus gravida nunc, ac vestibulum nulla urna in mauris.
                                 </div>
+
+                                <div class="content">
+                                
+                                    <button class="button is-info ">
+                                        <span class="icon-text">
+                                            <span class="icon">
+                                                <i class="fas fa-link"></i>
+                                            </span>
+                                            <span>Browse on Github</span>
+                                        </span>
+                                    </button>
+                                </div>
                 
                             </div>
                 
@@ -304,7 +378,7 @@
     
     </section>
 
-    <section id="Contact hero" class="hero is-light">
+    <section id="Contact_hero" class="hero is-light">
     
         <div class="hero-body">
     
@@ -388,11 +462,29 @@
     
     </section>
 
-    <footer class="footer has-background-primary">
-        <div class="content has-text-centered has-text-white">
+    <footer id="Footer" class="footer has-background-primary">
+        <div class="content has-text-centered has-text-black">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt malesuada enim, a posuere metus.   
         </div>
+
+
+        <div class="container has-text-centered has-text-black">
+            <span class="icon-text ">
+                <span class="icon">
+                    <i class="far fa-copyright"></i>
+                </span>
+                <span> Jan Zasadny 2021 </span>
+            </span>
+        </div>
     </footer>
+
+    <div id="back_to_top_button" class="is-fab">
+        <button class="button is-rounded">
+            <span class="icon">
+                <i class="fas fa-chevron-up"></i>
+            </span>
+        </button>
+    </div>
 
 
 

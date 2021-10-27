@@ -1,5 +1,55 @@
 @charset "utf-8";
 
-.has-bg-neural { background: url('../images/neural.jpg')center center; background-size:cover; }
 
-@import "../bulma/bulma.sass";
+$palette_main: #A6DCEF;
+$palette_gray: #DDF3F5;
+$palette_info: #F2AAAA;
+
+
+$primary: $palette_main;
+$light: $palette_gray;
+$info: $palette_info;
+
+.has-bg-neural { 
+    background: url('../images/neural.jpg')center center; 
+    background-size:cover; 
+}
+
+.navbar.is-light {
+    background-color: $light !important;
+}
+
+.navbar.is-primary {
+    background-color: $primary !important;
+}
+
+.navbar {
+    transition: background-color 200ms linear;
+}
+
+.navbar .navbar-item{
+    transition: color 200ms linear;
+}
+
+.is-fab{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 400ms ;
+    
+    
+}
+
+.is-fab.is-visible{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+@import "../bulma/bulma"; 
