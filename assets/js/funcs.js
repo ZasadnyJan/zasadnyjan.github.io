@@ -73,3 +73,15 @@ $("#contact_button").click(function () {
         scrollTop: $("#Contact_hero").position().top - scroll_margin
     }, scroll_animation_time);
 });
+
+$("#reach_out_link").click(function () {
+    $('html, body').animate({
+        scrollTop: $("#Contact_hero").position().top - scroll_margin
+    }, scroll_animation_time);
+});
+
+$("#portfolio_link").click(function () {
+    $('html, body').animate({
+        scrollTop: $("#Portfolio_hero").position().top - scroll_margin
+    }, scroll_animation_time);
+});

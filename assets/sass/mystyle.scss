@@ -49,7 +49,24 @@ $info: $palette_info;
     
 }
 
+.title.is-size-1{
+    font-size: 6rem !important;
+}
 
+.notification a:not(.button):not(.dropdown-item) {
+    text-decoration: none !important;
+}
 
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
+}
+
+.content-bottom {
+    position:absolute;
+    bottom:0px;
+
+}
 @import "../bulma/bulma"; 

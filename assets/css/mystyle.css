@@ -34,6 +34,25 @@
   opacity: 1;
 }
 
+.title.is-size-1 {
+  font-size: 6rem !important;
+}
+
+.notification a:not(.button):not(.dropdown-item) {
+  text-decoration: none !important;
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content-bottom {
+  position: absolute;
+  bottom: 0px;
+}
+
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .pagination-previous,
