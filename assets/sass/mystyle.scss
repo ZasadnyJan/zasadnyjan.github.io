@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 
-$palette_main: #A6DCEF;
-$palette_gray: #DDF3F5;
-$palette_info: #F2AAAA;
+$palette_main: #c1caf5;
+$palette_gray: #ECEFFC;
+$palette_info: #c1e4f5;
 
 
 $primary: $palette_main;
@@ -11,7 +11,7 @@ $light: $palette_gray;
 $info: $palette_info;
 
 .has-bg-neural { 
-    background: url('../images/neural.jpg')center center; 
+    background: url('../images/background.jpg')center center; 
     background-size:cover; 
 }
 
@@ -69,4 +69,17 @@ $info: $palette_info;
     bottom:0px;
 
 }
+
+
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;  
+}
+
+
 @import "../bulma/bulma"; 

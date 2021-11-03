@@ -41,6 +41,37 @@ $(document).scroll(function () {
     }
 });
 
+$(document).ready(function () {
+
+    position_top = $(this).scrollTop();
+    position_bottom = position_top + nav_height;
+
+    if (position_top == offset_header) {
+        $nav.removeClass('is-primary');
+        $nav.removeClass('is-light');
+        $cv.removeClass('is-light');
+        $cv.addClass('is-primary');
+        $back_to_top.removeClass('is-visible');
+
+    }
+    else if ((position_bottom > offset_header && position_bottom < offset_about) || (position_bottom > offset_portfolio && position_bottom < offset_contact)) {
+        $nav.addClass('is-light');
+        $nav.removeClass('is-primary');
+        $cv.removeClass('is-light');
+        $cv.addClass('is-primary');
+        $back_to_top.addClass('is-visible');
+
+    }
+    else {
+        $nav.removeClass('is-light');
+        $nav.addClass('is-primary');
+        $cv.removeClass('is-primary');
+        $cv.addClass('is-light');
+        $back_to_top.addClass('is-visible');
+
+    }
+});
+
 var scroll_animation_time = 1000;
 var scroll_margin = 40;
 
